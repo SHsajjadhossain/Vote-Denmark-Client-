@@ -1,0 +1,152 @@
+/* ==========================================
+            common-css start
+============================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ==========================================
+            common-css end
+============================================= */
+
+
+/* ==========================================
+            bg banner-css start
+============================================= */
+
+#banner-part {
+    background-attachment: fixed;
+}
+
+.banner {
+    background: url(../images/background.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/* ==========================================
+            bg banner-css end
+============================================= */
+
+
+/* ==========================================
+            header part-css start
+============================================= */
+
+#header-part {
+    margin-top: 100px;
+}
+
+#header-part .logo {
+    margin: auto;
+    z-index: 0000;
+}
+
+#header-part .logo a img {
+    height: 200px;
+}
+
+#header-part .title {
+    height: 230px;
+    margin: auto;
+    z-index: 0000;
+}
+
+#header-part .title .img {
+    height: 100%;
+    text-align: center;
+    margin-top: -45px;
+}
+
+#header-part .title .img img {
+    height: 100%;
+}
+
+#header-part .title .text {
+    margin-top: -65px;
+}
+
+#header-part .title .text p {
+    font-size: 27px;
+    color: #ffffff;
+}
+
+
+/* ==========================================
+            header part-css end
+============================================= */
+
+
+/* ==========================================
+            link part-css start
+============================================= */
+
+
+/* #link-part {
+    margin: auto;
+} */
+
+#link-part .main-link {
+    display: flex;
+    margin: auto;
+    margin-top: -35px;
+}
+
+#link-part .link-row2 {
+    margin-top: -75px;
+}
+
+#link-part .main-link .link {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#link-part .main-link .link img {
+    width: 100%;
+    margin-bottom: -75px;
+}
+
+#link-part .main-link .link span {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+
+/* ==========================================
+            link part-css end
+============================================= */

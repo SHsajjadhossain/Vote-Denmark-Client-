@@ -1,0 +1,55 @@
+@media(max-width:575px) {
+    #banner-part .banner #header-part {
+        margin-top: 60px;
+    }
+    #header-part .logo a img {
+        height: 100px;
+    }
+    #header-part .title {
+        height: 215px;
+    }
+    #header-part .title .text p {
+        font-size: 18px;
+        text-align: center;
+    }
+    .banner {
+        height: 203%;
+    }
+    #link-part .main-link {
+        display: block;
+        margin-top: 0px;
+    }
+    #link-part .main-link .link {
+        margin-top: -75px;
+    }
+    #header-part {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width:576px) and (max-width: 767px) {
+    #header-part {
+        margin-top: 75px;
+    }
+    #header-part .title .text p {
+        font-size: 14px;
+    }
+    #link-part .main-link .link {
+        width: 150px;
+    }
+    #link-part .main-link .link img {
+        margin-bottom: -55px;
+    }
+    #link-part .link-row2 {
+        margin-top: -75px;
+    }
+    .banner {
+        height: 103%;
+    }
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+    #header-part .title .text p {
+        font-size: 22px;
+    }
+}
